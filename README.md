@@ -1,9 +1,31 @@
 # retry
 A simple command repeater
 
-*This was only tested on linux but probably works on other systems*
+## Building
 
-### Usage
+### Requirements
+
+- C++17
+- CMake
+
+### CLI
+
+```
+    git clone https://github.com/taytoad/retry && cd retry
+    mkdir build && cd build
+    
+    (Most build systems work. Set with -G "build system")
+    cmake -S ../ -B ./
+    
+```
+
+### GUI
+```
+    Clone the repo with the command line or download directly from github and extract.
+    Follow instructions on the GUI.
+```
+
+## Usage
 
 retry "[Command]" -options
 
